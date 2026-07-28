@@ -1,0 +1,56 @@
+[debug] [2026-07-28T02:47:17.260Z] ----------------------------------------------------------------------
+[debug] [2026-07-28T02:47:17.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Fernando\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-07-28T02:47:17.268Z] CLI Version:   15.24.0
+[debug] [2026-07-28T02:47:17.268Z] Platform:      win32
+[debug] [2026-07-28T02:47:17.268Z] Node Version:  v24.18.0
+[debug] [2026-07-28T02:47:17.268Z] Detected Agent: github_copilot_vscode_agent
+[debug] [2026-07-28T02:47:17.269Z] Time:          Mon Jul 27 2026 20:47:17 GMT-0600 (hora estándar central)
+[debug] [2026-07-28T02:47:17.269Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  c:\Users\Fernando\MARQSA\marqsa
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-07-28T02:47:35.229Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-28T02:47:35.229Z] > authorizing via signed-in user (fertista67@gmail.com)
+[debug] [2026-07-28T02:47:35.256Z] Checked if tokens are valid: false, expires at: 1785185083319
+[debug] [2026-07-28T02:47:35.257Z] Checked if tokens are valid: false, expires at: 1785185083319
+[debug] [2026-07-28T02:47:35.257Z] > refreshing access token with scopes: []
+[debug] [2026-07-28T02:47:35.262Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-07-28T02:47:35.262Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-07-28T02:47:35.639Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-07-28T02:47:35.639Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-07-28T02:47:35.655Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marqsa-rental [none]
+[debug] [2026-07-28T02:47:36.613Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marqsa-rental 200
+[debug] [2026-07-28T02:47:36.613Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marqsa-rental {"projectId":"marqsa-rental","projectNumber":"16214999291","displayName":"marqsa-rental","name":"projects/marqsa-rental","resources":{"hostingSite":"marqsa-rental"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_aa99caec-679f-4159-9800-17d79682da49"}
+[info] i  Using project marqsa-rental (marqsa-rental) . 
+[info] 
+=== Hosting Setup
+[info] 
+[debug] [2026-07-28T02:48:32.606Z] Checked if tokens are valid: true, expires at: 1785210454640
+[debug] [2026-07-28T02:48:32.606Z] Checked if tokens are valid: true, expires at: 1785210454640
+[debug] [2026-07-28T02:48:32.606Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marqsa-rental [none]
+[debug] [2026-07-28T02:48:33.105Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marqsa-rental 200
+[debug] [2026-07-28T02:48:33.106Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marqsa-rental {"projectId":"marqsa-rental","projectNumber":"16214999291","displayName":"marqsa-rental","name":"projects/marqsa-rental","resources":{"hostingSite":"marqsa-rental"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_aa99caec-679f-4159-9800-17d79682da49"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
